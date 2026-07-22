@@ -17,6 +17,9 @@
 | `history/` | `core/ledger/kvledger/history/` (history query executer folding typed-delta writes) |
 | `chaincode/` | standalone chaincodes: typed delta, vanilla read-modify-write, append/high-throughput |
 | `data/` | raw result data for experiments E1-E7, benchstat outputs, aggregated tables |
+| `driver/` | standalone Fabric Gateway load driver (Go module `loaddriver`; JSON summary + per-tx CSV per run) |
+| `analyzer/` | `prefixanalyzer/` at the root of the modified Fabric tree: block-replay prefix-violation analyzer (builds inside the tree) |
+| `scripts/` | deployment (`cell-reboot.sh`, `fetch-blocks.sh`), per-experiment runners (`cell-runner.ps1`, `run-E1`..`run-E7`), aggregation and figure generation (`agg-*.py`, `fig2_gen.py`, `fig3_gen.py`) |
 
 ## Files modified relative to the base commit
 
