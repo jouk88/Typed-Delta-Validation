@@ -1,0 +1,33 @@
+{
+  "amount": 1,
+  "amountMax": 10,
+  "by_code": {
+    "INVALID_OTHER_REASON": 129,
+    "VALID": 371
+  },
+  "cc": "ours",
+  "chaincode": "typeddelta",
+  "concurrency": 50,
+  "count": 500,
+  "credit_ratio": 30,
+  "credit_total": 155,
+  "elapsed_s": 0.565,
+  "initBalance": 200,
+  "invalid": 129,
+  "key": "E6-ours-seed137",
+  "keys": 1,
+  "mvcc_invalid": 0,
+  "note": "safe goodput == valid goodput for ours/vanilla (prefix violations expected 0; confirm via prefixanalyzer)",
+  "p50_ms": 52.71,
+  "p95_ms": 75.97,
+  "p99_ms": 91.64,
+  "reveal_ratio": 0,
+  "reveal_total": 0,
+  "reveal_valid": 0,
+  "seed": 137,
+  "submit_errors": 0,
+  "submitted": 500,
+  "submitted_tps": 885.13,
+  "valid": 371,
+  "valid_goodput_tps": 656.77
+}

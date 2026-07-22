@@ -1,0 +1,5 @@
+deltas_per_block,range_minus_nonneg_us,welch_ci95_half_us,pct_over_nonneg,ci_excludes_zero
+10,4.67,0.53,9.7,yes
+50,19.86,2.51,8.1,yes
+100,39.12,3.52,7.9,yes
+500,189.98,13.10,7.4,yes

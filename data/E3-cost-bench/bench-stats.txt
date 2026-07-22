@@ -1,0 +1,51 @@
+goos: windows
+goarch: amd64
+pkg: github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/validation
+cpu: Intel(R) Core(TM) i5-14600K
+                                          │ bench-raw-1.txt │
+                                          │                               sec/op                               │
+TypedDeltaValidation/plain/deltas=10-20                                                            16.25µ ± 2%
+TypedDeltaValidation/NONNEG/deltas=10-20                                                           48.15µ ± 1%
+TypedDeltaValidation/RANGE/deltas=10-20                                                            52.50µ ± 2%
+TypedDeltaValidation/plain/deltas=50-20                                                            78.85µ ± 1%
+TypedDeltaValidation/NONNEG/deltas=50-20                                                           243.8µ ± 1%
+TypedDeltaValidation/RANGE/deltas=50-20                                                            264.5µ ± 1%
+TypedDeltaValidation/plain/deltas=100-20                                                           157.3µ ± 1%
+TypedDeltaValidation/NONNEG/deltas=100-20                                                          491.8µ ± 1%
+TypedDeltaValidation/RANGE/deltas=100-20                                                           530.9µ ± 1%
+TypedDeltaValidation/plain/deltas=500-20                                                           789.6µ ± 0%
+TypedDeltaValidation/NONNEG/deltas=500-20                                                          2.558m ± 1%
+TypedDeltaValidation/RANGE/deltas=500-20                                                           2.745m ± 1%
+geomean                                                                                            245.3µ
+
+                                          │ bench-raw-1.txt │
+                                          │                                B/op                                │
+TypedDeltaValidation/plain/deltas=10-20                                                           16.13Ki ± 0%
+TypedDeltaValidation/NONNEG/deltas=10-20                                                          40.36Ki ± 0%
+TypedDeltaValidation/RANGE/deltas=10-20                                                           41.45Ki ± 0%
+TypedDeltaValidation/plain/deltas=50-20                                                           79.15Ki ± 0%
+TypedDeltaValidation/NONNEG/deltas=50-20                                                          200.3Ki ± 0%
+TypedDeltaValidation/RANGE/deltas=50-20                                                           205.8Ki ± 0%
+TypedDeltaValidation/plain/deltas=100-20                                                          158.0Ki ± 0%
+TypedDeltaValidation/NONNEG/deltas=100-20                                                         400.2Ki ± 0%
+TypedDeltaValidation/RANGE/deltas=100-20                                                          411.2Ki ± 0%
+TypedDeltaValidation/plain/deltas=500-20                                                          809.6Ki ± 0%
+TypedDeltaValidation/NONNEG/deltas=500-20                                                         1.974Mi ± 0%
+TypedDeltaValidation/RANGE/deltas=500-20                                                          2.027Mi ± 0%
+geomean                                                                                           211.0Ki
+
+                                          │ bench-raw-1.txt │
+                                          │                             allocs/op                              │
+TypedDeltaValidation/plain/deltas=10-20                                                             253.0 ± 0%
+TypedDeltaValidation/NONNEG/deltas=10-20                                                            823.0 ± 0%
+TypedDeltaValidation/RANGE/deltas=10-20                                                             833.0 ± 0%
+TypedDeltaValidation/plain/deltas=50-20                                                            1.217k ± 0%
+TypedDeltaValidation/NONNEG/deltas=50-20                                                           4.067k ± 0%
+TypedDeltaValidation/RANGE/deltas=50-20                                                            4.117k ± 0%
+TypedDeltaValidation/plain/deltas=100-20                                                           2.419k ± 0%
+TypedDeltaValidation/NONNEG/deltas=100-20                                                          8.119k ± 0%
+TypedDeltaValidation/RANGE/deltas=100-20                                                           8.219k ± 0%
+TypedDeltaValidation/plain/deltas=500-20                                                           12.27k ± 0%
+TypedDeltaValidation/NONNEG/deltas=500-20                                                          40.77k ± 0%
+TypedDeltaValidation/RANGE/deltas=500-20                                                           41.27k ± 0%
+geomean                                                                                            3.884k

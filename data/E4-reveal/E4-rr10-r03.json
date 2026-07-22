@@ -1,0 +1,33 @@
+{
+  "amount": 1,
+  "amountMax": 0,
+  "by_code": {
+    "MVCC_READ_CONFLICT": 50,
+    "VALID": 450
+  },
+  "cc": "ours",
+  "chaincode": "typeddelta",
+  "concurrency": 50,
+  "count": 500,
+  "credit_ratio": 0,
+  "credit_total": 0,
+  "elapsed_s": 0.57,
+  "initBalance": 100000000,
+  "invalid": 50,
+  "key": "E4-rr10-r03",
+  "keys": 1,
+  "mvcc_invalid": 50,
+  "note": "safe goodput == valid goodput for ours/vanilla (prefix violations expected 0; confirm via prefixanalyzer)",
+  "p50_ms": 53.88,
+  "p95_ms": 71.78,
+  "p99_ms": 82.03,
+  "reveal_ratio": 10,
+  "reveal_total": 50,
+  "reveal_valid": 0,
+  "seed": 0,
+  "submit_errors": 0,
+  "submitted": 500,
+  "submitted_tps": 876.86,
+  "valid": 450,
+  "valid_goodput_tps": 789.17
+}

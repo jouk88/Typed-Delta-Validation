@@ -1,0 +1,32 @@
+{
+  "amount": 1,
+  "amountMax": 10,
+  "by_code": {
+    "VALID": 500
+  },
+  "cc": "ht",
+  "chaincode": "highthroughput",
+  "concurrency": 50,
+  "count": 500,
+  "credit_ratio": 30,
+  "credit_total": 149,
+  "elapsed_s": 0.553,
+  "initBalance": 200,
+  "invalid": 0,
+  "key": "E6-ht-seed314",
+  "keys": 1,
+  "mvcc_invalid": 0,
+  "note": "safe goodput == valid goodput for ours/vanilla (prefix violations expected 0; confirm via prefixanalyzer)",
+  "p50_ms": 52.48,
+  "p95_ms": 71.23,
+  "p99_ms": 87.79,
+  "reveal_ratio": 0,
+  "reveal_total": 0,
+  "reveal_valid": 0,
+  "seed": 314,
+  "submit_errors": 0,
+  "submitted": 500,
+  "submitted_tps": 904.11,
+  "valid": 500,
+  "valid_goodput_tps": 904.11
+}

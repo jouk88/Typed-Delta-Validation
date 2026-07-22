@@ -1,0 +1,32 @@
+{
+  "amount": 1,
+  "amountMax": 0,
+  "by_code": {
+    "VALID": 1000
+  },
+  "cc": "ht",
+  "chaincode": "highthroughput",
+  "concurrency": 10,
+  "count": 1000,
+  "credit_ratio": 0,
+  "credit_total": 0,
+  "elapsed_s": 5.005,
+  "initBalance": 100000000,
+  "invalid": 0,
+  "key": "E2-ht-c10-r10",
+  "keys": 1,
+  "mvcc_invalid": 0,
+  "note": "safe goodput == valid goodput for ours/vanilla (prefix violations expected 0; confirm via prefixanalyzer)",
+  "p50_ms": 32.49,
+  "p95_ms": 121.55,
+  "p99_ms": 136.92,
+  "reveal_ratio": 0,
+  "reveal_total": 0,
+  "reveal_valid": 0,
+  "seed": 0,
+  "submit_errors": 0,
+  "submitted": 1000,
+  "submitted_tps": 199.82,
+  "valid": 1000,
+  "valid_goodput_tps": 199.82
+}

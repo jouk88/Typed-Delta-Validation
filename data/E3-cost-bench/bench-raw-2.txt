@@ -1,0 +1,786 @@
+[34m2026-07-07 22:22:55.085 KST 0001 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+goos: windows
+goarch: amd64
+pkg: github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/validation
+cpu: Intel(R) Core(TM) i5-14600K
+BenchmarkTypedDeltaValidation/plain/deltas=10-20         	[34m2026-07-07 22:22:55.099 KST 0002 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:22:55.111 KST 0003 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:22:55.292 KST 0004 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   71017	     20539 ns/op	   16517 B/op	     253 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=10-20         	[34m2026-07-07 22:22:56.782 KST 0005 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:22:56.794 KST 0006 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:22:56.808 KST 0007 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:22:56.997 KST 0008 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   70975	     17942 ns/op	   16517 B/op	     253 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=10-20         	[34m2026-07-07 22:22:58.282 KST 0009 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:22:58.292 KST 000a INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:22:58.306 KST 000b INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:22:58.491 KST 000c INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   69834	     15963 ns/op	   16517 B/op	     253 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=10-20         	[34m2026-07-07 22:22:59.618 KST 000d INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:22:59.629 KST 000e INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:22:59.643 KST 000f INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:22:59.838 KST 0010 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   66393	     21623 ns/op	   16517 B/op	     253 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=10-20         	[34m2026-07-07 22:23:01.313 KST 0011 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:01.339 KST 0012 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:01.381 KST 0013 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:01.584 KST 0014 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   63366	     17688 ns/op	   16517 B/op	     253 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=10-20         	[34m2026-07-07 22:23:02.762 KST 0015 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:02.782 KST 0016 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:02.794 KST 0017 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:02.964 KST 0018 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   76165	     16683 ns/op	   16517 B/op	     253 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=10-20         	[34m2026-07-07 22:23:04.288 KST 0019 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:04.303 KST 001a INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:04.329 KST 001b INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:04.503 KST 001c INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   74043	     15929 ns/op	   16517 B/op	     253 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=10-20         	[34m2026-07-07 22:23:05.765 KST 001d INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:05.789 KST 001e INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:05.811 KST 001f INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:05.983 KST 0020 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   74827	     16142 ns/op	   16517 B/op	     253 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=10-20         	[34m2026-07-07 22:23:07.223 KST 0021 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:07.245 KST 0022 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:07.257 KST 0023 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:07.440 KST 0024 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   72376	     15953 ns/op	   16517 B/op	     253 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=10-20         	[34m2026-07-07 22:23:08.664 KST 0025 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:08.683 KST 0026 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:08.701 KST 0027 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:08.874 KST 0028 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   74104	     16026 ns/op	   16517 B/op	     253 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=10-20         	[34m2026-07-07 22:23:10.115 KST 0029 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:10.132 KST 002a INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:10.144 KST 002b INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:10.315 KST 002c INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   75530	     16159 ns/op	   16517 B/op	     253 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=10-20         	[34m2026-07-07 22:23:11.547 KST 002d INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:11.560 KST 002e INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:11.572 KST 002f INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:11.745 KST 0030 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   73932	     16067 ns/op	   16517 B/op	     253 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=10-20         	[34m2026-07-07 22:23:12.985 KST 0031 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:13.003 KST 0032 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:13.016 KST 0033 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:13.191 KST 0034 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   72741	     16149 ns/op	   16517 B/op	     253 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=10-20         	[34m2026-07-07 22:23:14.382 KST 0035 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:14.400 KST 0036 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:14.412 KST 0037 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:14.581 KST 0038 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   75650	     16150 ns/op	   16517 B/op	     253 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=10-20         	[34m2026-07-07 22:23:15.864 KST 0039 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:15.881 KST 003a INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:15.905 KST 003b INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:16.083 KST 003c INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   71950	     15957 ns/op	   16517 B/op	     253 allocs/op
+[34m2026-07-07 22:23:17.290 KST 003d INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+BenchmarkTypedDeltaValidation/NONNEG/deltas=10-20        	[34m2026-07-07 22:23:17.307 KST 003e INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:17.324 KST 003f INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:17.882 KST 0040 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   25329	     48697 ns/op	   41326 B/op	     823 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=10-20        	[34m2026-07-07 22:23:19.127 KST 0041 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:19.138 KST 0042 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:19.157 KST 0043 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:19.706 KST 0044 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   24928	     48387 ns/op	   41326 B/op	     823 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=10-20        	[34m2026-07-07 22:23:20.925 KST 0045 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:20.936 KST 0046 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:20.953 KST 0047 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:21.448 KST 0048 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   25094	     47747 ns/op	   41326 B/op	     823 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=10-20        	[34m2026-07-07 22:23:22.674 KST 0049 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:22.686 KST 004a INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:22.705 KST 004b INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:23.211 KST 004c INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   25084	     48928 ns/op	   41326 B/op	     823 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=10-20        	[34m2026-07-07 22:23:24.475 KST 004d INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:24.496 KST 004e INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:24.518 KST 004f INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:25.108 KST 0050 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   24556	     48017 ns/op	   41326 B/op	     823 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=10-20        	[34m2026-07-07 22:23:26.299 KST 0051 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:26.310 KST 0052 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:26.326 KST 0053 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:26.819 KST 0054 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   25028	     48644 ns/op	   41326 B/op	     823 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=10-20        	[34m2026-07-07 22:23:28.048 KST 0055 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:28.061 KST 0056 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:28.081 KST 0057 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:28.576 KST 0058 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   24876	     47876 ns/op	   41326 B/op	     823 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=10-20        	[34m2026-07-07 22:23:29.779 KST 0059 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:29.790 KST 005a INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:29.809 KST 005b INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:30.307 KST 005c INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   25059	     47901 ns/op	   41326 B/op	     823 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=10-20        	[34m2026-07-07 22:23:31.520 KST 005d INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:31.532 KST 005e INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:31.547 KST 005f INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:32.085 KST 0060 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   25224	     48841 ns/op	   41326 B/op	     823 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=10-20        	[34m2026-07-07 22:23:33.367 KST 0061 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:33.386 KST 0062 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:33.416 KST 0063 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:33.968 KST 0064 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   24922	     47013 ns/op	   41326 B/op	     823 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=10-20        	[34m2026-07-07 22:23:35.200 KST 0065 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:35.217 KST 0066 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:35.241 KST 0067 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:35.743 KST 0068 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   24472	     47970 ns/op	   41326 B/op	     823 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=10-20        	[34m2026-07-07 22:23:36.981 KST 0069 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:37.001 KST 006a INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:37.017 KST 006b INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:37.549 KST 006c INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   25168	     47631 ns/op	   41325 B/op	     823 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=10-20        	[34m2026-07-07 22:23:38.767 KST 006d INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:38.778 KST 006e INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:38.794 KST 006f INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:39.278 KST 0070 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   25454	     47864 ns/op	   41326 B/op	     823 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=10-20        	[34m2026-07-07 22:23:40.554 KST 0071 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:40.572 KST 0072 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:40.589 KST 0073 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:41.144 KST 0074 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   24795	     47666 ns/op	   41326 B/op	     823 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=10-20        	[34m2026-07-07 22:23:42.403 KST 0075 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:42.421 KST 0076 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:42.438 KST 0077 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:42.963 KST 0078 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   25453	     48758 ns/op	   41326 B/op	     823 allocs/op
+[34m2026-07-07 22:23:44.219 KST 0079 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+BenchmarkTypedDeltaValidation/RANGE/deltas=10-20         	[34m2026-07-07 22:23:44.230 KST 007a INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:44.247 KST 007b INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:44.772 KST 007c INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   23358	     52452 ns/op	   42446 B/op	     833 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=10-20         	[34m2026-07-07 22:23:46.010 KST 007d INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:46.022 KST 007e INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:46.038 KST 007f INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:46.609 KST 0080 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   23476	     51536 ns/op	   42446 B/op	     833 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=10-20         	[34m2026-07-07 22:23:47.839 KST 0081 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:47.851 KST 0082 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:47.868 KST 0083 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:48.430 KST 0084 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   23570	     52262 ns/op	   42446 B/op	     833 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=10-20         	[34m2026-07-07 22:23:49.710 KST 0085 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:49.729 KST 0086 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:49.746 KST 0087 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:50.320 KST 0088 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   23272	     51667 ns/op	   42446 B/op	     833 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=10-20         	[34m2026-07-07 22:23:51.577 KST 0089 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:51.595 KST 008a INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:51.612 KST 008b INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:52.139 KST 008c INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   23253	     51573 ns/op	   42446 B/op	     833 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=10-20         	[34m2026-07-07 22:23:53.358 KST 008d INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:53.376 KST 008e INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:53.395 KST 008f INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:53.949 KST 0090 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   22748	     51117 ns/op	   42446 B/op	     833 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=10-20         	[34m2026-07-07 22:23:55.167 KST 0091 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:55.183 KST 0092 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:55.200 KST 0093 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:55.726 KST 0094 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   23551	     51492 ns/op	   42446 B/op	     833 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=10-20         	[34m2026-07-07 22:23:56.954 KST 0095 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:56.967 KST 0096 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:56.988 KST 0097 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:57.554 KST 0098 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   23372	     51383 ns/op	   42446 B/op	     833 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=10-20         	[34m2026-07-07 22:23:58.767 KST 0099 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:58.778 KST 009a INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:58.795 KST 009b INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:23:59.371 KST 009c INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   22970	     51379 ns/op	   42446 B/op	     833 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=10-20         	[34m2026-07-07 22:24:00.567 KST 009d INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:00.578 KST 009e INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:00.608 KST 009f INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:01.227 KST 00a0 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   23340	     52000 ns/op	   42446 B/op	     833 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=10-20         	[34m2026-07-07 22:24:02.460 KST 00a1 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:02.471 KST 00a2 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:02.487 KST 00a3 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:03.030 KST 00a4 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   22622	     51760 ns/op	   42446 B/op	     833 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=10-20         	[34m2026-07-07 22:24:04.213 KST 00a5 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:04.223 KST 00a6 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:04.242 KST 00a7 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:04.812 KST 00a8 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   23242	     51709 ns/op	   42446 B/op	     833 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=10-20         	[34m2026-07-07 22:24:06.033 KST 00a9 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:06.044 KST 00aa INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:06.061 KST 00ab INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:06.671 KST 00ac INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   23310	     52369 ns/op	   42446 B/op	     833 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=10-20         	[34m2026-07-07 22:24:07.910 KST 00ad INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:07.921 KST 00ae INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:07.938 KST 00af INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:08.467 KST 00b0 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   23233	     51641 ns/op	   42446 B/op	     833 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=10-20         	[34m2026-07-07 22:24:09.725 KST 00b1 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:09.744 KST 00b2 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:09.769 KST 00b3 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:10.386 KST 00b4 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   23220	     52179 ns/op	   42446 B/op	     833 allocs/op
+[34m2026-07-07 22:24:11.666 KST 00b5 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+BenchmarkTypedDeltaValidation/plain/deltas=50-20         	[34m2026-07-07 22:24:11.683 KST 00b6 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:11.702 KST 00b7 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:12.549 KST 00b8 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   15180	     78985 ns/op	   81050 B/op	    1217 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=50-20         	[34m2026-07-07 22:24:13.807 KST 00b9 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:13.827 KST 00ba INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:13.848 KST 00bb INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:14.700 KST 00bc INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   15298	     78419 ns/op	   81049 B/op	    1217 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=50-20         	[34m2026-07-07 22:24:15.918 KST 00bd INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:15.929 KST 00be INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:15.948 KST 00bf INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:16.743 KST 00c0 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   15294	     79044 ns/op	   81049 B/op	    1217 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=50-20         	[34m2026-07-07 22:24:17.966 KST 00c1 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:17.979 KST 00c2 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:17.998 KST 00c3 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:18.814 KST 00c4 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   15354	     79149 ns/op	   81050 B/op	    1217 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=50-20         	[34m2026-07-07 22:24:20.041 KST 00c5 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:20.052 KST 00c6 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:20.072 KST 00c7 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:20.877 KST 00c8 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   15171	     79105 ns/op	   81050 B/op	    1217 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=50-20         	[34m2026-07-07 22:24:22.088 KST 00c9 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:22.100 KST 00ca INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:22.132 KST 00cb INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:22.975 KST 00cc INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   15381	     79493 ns/op	   81050 B/op	    1217 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=50-20         	[34m2026-07-07 22:24:24.212 KST 00cd INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:24.221 KST 00ce INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:24.241 KST 00cf INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:25.046 KST 00d0 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   15138	     79229 ns/op	   81049 B/op	    1217 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=50-20         	[34m2026-07-07 22:24:26.258 KST 00d1 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:26.269 KST 00d2 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:26.289 KST 00d3 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:27.097 KST 00d4 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   15208	     79098 ns/op	   81048 B/op	    1217 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=50-20         	[34m2026-07-07 22:24:28.320 KST 00d5 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:28.330 KST 00d6 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:28.364 KST 00d7 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:29.169 KST 00d8 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   15364	     79858 ns/op	   81050 B/op	    1217 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=50-20         	[34m2026-07-07 22:24:30.409 KST 00d9 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:30.420 KST 00da INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:30.440 KST 00db INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:31.250 KST 00dc INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   15080	     78648 ns/op	   81049 B/op	    1217 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=50-20         	[34m2026-07-07 22:24:32.451 KST 00dd INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:32.465 KST 00de INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:32.488 KST 00df INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:33.303 KST 00e0 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   15012	     78363 ns/op	   81049 B/op	    1217 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=50-20         	[34m2026-07-07 22:24:34.493 KST 00e1 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:34.506 KST 00e2 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:34.529 KST 00e3 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:35.325 KST 00e4 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   15273	     78512 ns/op	   81049 B/op	    1217 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=50-20         	[34m2026-07-07 22:24:36.537 KST 00e5 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:36.550 KST 00e6 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:36.569 KST 00e7 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:37.368 KST 00e8 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   15272	     78209 ns/op	   81049 B/op	    1217 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=50-20         	[34m2026-07-07 22:24:38.573 KST 00e9 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:38.585 KST 00ea INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:38.604 KST 00eb INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:39.403 KST 00ec INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   15249	     79013 ns/op	   81050 B/op	    1217 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=50-20         	[34m2026-07-07 22:24:40.666 KST 00ed INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:40.685 KST 00ee INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:40.705 KST 00ef INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:41.547 KST 00f0 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+   15294	     78660 ns/op	   81049 B/op	    1217 allocs/op
+[34m2026-07-07 22:24:42.809 KST 00f1 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+BenchmarkTypedDeltaValidation/NONNEG/deltas=50-20        	[34m2026-07-07 22:24:42.828 KST 00f2 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:42.864 KST 00f3 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    4773	    241782 ns/op	  205093 B/op	    4067 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=50-20        	[34m2026-07-07 22:24:44.043 KST 00f4 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:44.057 KST 00f5 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:44.093 KST 00f6 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    4858	    243783 ns/op	  205096 B/op	    4067 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=50-20        	[34m2026-07-07 22:24:45.290 KST 00f7 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:45.301 KST 00f8 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:45.339 KST 00f9 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    4846	    244694 ns/op	  205093 B/op	    4067 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=50-20        	[34m2026-07-07 22:24:46.595 KST 00fa INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:46.614 KST 00fb INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:46.651 KST 00fc INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    4774	    244441 ns/op	  205092 B/op	    4067 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=50-20        	[34m2026-07-07 22:24:47.833 KST 00fd INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:47.844 KST 00fe INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:47.885 KST 00ff INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    4538	    246413 ns/op	  205091 B/op	    4067 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=50-20        	[34m2026-07-07 22:24:49.070 KST 0100 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:49.094 KST 0101 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:49.142 KST 0102 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    4792	    243160 ns/op	  205092 B/op	    4067 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=50-20        	[34m2026-07-07 22:24:50.320 KST 0103 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:50.332 KST 0104 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:50.371 KST 0105 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    4965	    244871 ns/op	  205093 B/op	    4067 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=50-20        	[34m2026-07-07 22:24:51.652 KST 0106 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:51.670 KST 0107 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:51.718 KST 0108 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    4801	    245914 ns/op	  205093 B/op	    4067 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=50-20        	[34m2026-07-07 22:24:52.961 KST 0109 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:52.981 KST 010a INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:53.019 KST 010b INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    4666	    248756 ns/op	  205094 B/op	    4067 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=50-20        	[34m2026-07-07 22:24:54.238 KST 010c INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:54.259 KST 010d INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:54.296 KST 010e INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    4634	    245956 ns/op	  205094 B/op	    4067 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=50-20        	[34m2026-07-07 22:24:55.461 KST 010f INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:55.473 KST 0110 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:55.522 KST 0111 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    4804	    245288 ns/op	  205094 B/op	    4067 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=50-20        	[34m2026-07-07 22:24:56.793 KST 0112 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:56.811 KST 0113 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:56.848 KST 0114 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    4765	    249496 ns/op	  205094 B/op	    4067 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=50-20        	[34m2026-07-07 22:24:58.110 KST 0115 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:58.126 KST 0116 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:58.166 KST 0117 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    4828	    246148 ns/op	  205096 B/op	    4067 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=50-20        	[34m2026-07-07 22:24:59.373 KST 0118 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:59.387 KST 0119 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:24:59.428 KST 011a INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    4813	    243972 ns/op	  205091 B/op	    4067 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=50-20        	[34m2026-07-07 22:25:00.616 KST 011b INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:00.627 KST 011c INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:00.669 KST 011d INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    4887	    241733 ns/op	  205094 B/op	    4067 allocs/op
+[34m2026-07-07 22:25:01.911 KST 011e INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+BenchmarkTypedDeltaValidation/RANGE/deltas=50-20         	[34m2026-07-07 22:25:01.928 KST 011f INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:01.967 KST 0120 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    4416	    270153 ns/op	  210696 B/op	    4117 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=50-20         	[34m2026-07-07 22:25:03.174 KST 0121 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:03.184 KST 0122 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:03.223 KST 0123 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    4555	    261436 ns/op	  210695 B/op	    4117 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=50-20         	[34m2026-07-07 22:25:04.428 KST 0124 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:04.440 KST 0125 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:04.477 KST 0126 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    4518	    261998 ns/op	  210696 B/op	    4117 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=50-20         	[34m2026-07-07 22:25:05.717 KST 0127 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:05.736 KST 0128 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:05.774 KST 0129 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    4465	    263673 ns/op	  210696 B/op	    4117 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=50-20         	[34m2026-07-07 22:25:07.013 KST 012a INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:07.029 KST 012b INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:07.068 KST 012c INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    4412	    264945 ns/op	  210696 B/op	    4117 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=50-20         	[34m2026-07-07 22:25:08.250 KST 012d INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:08.261 KST 012e INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:08.299 KST 012f INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    4549	    263253 ns/op	  210696 B/op	    4117 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=50-20         	[34m2026-07-07 22:25:09.509 KST 0130 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:09.529 KST 0131 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:09.573 KST 0132 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    4521	    265966 ns/op	  210696 B/op	    4117 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=50-20         	[34m2026-07-07 22:25:10.793 KST 0133 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:10.805 KST 0134 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:10.844 KST 0135 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    4502	    261211 ns/op	  210694 B/op	    4117 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=50-20         	[34m2026-07-07 22:25:12.032 KST 0136 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:12.051 KST 0137 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:12.090 KST 0138 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    4441	    262255 ns/op	  210694 B/op	    4117 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=50-20         	[34m2026-07-07 22:25:13.315 KST 0139 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:13.333 KST 013a INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:13.372 KST 013b INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    4490	    264593 ns/op	  210693 B/op	    4117 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=50-20         	[34m2026-07-07 22:25:14.618 KST 013c INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:14.636 KST 013d INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:14.675 KST 013e INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    4420	    264584 ns/op	  210697 B/op	    4117 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=50-20         	[34m2026-07-07 22:25:15.859 KST 013f INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:15.870 KST 0140 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:15.909 KST 0141 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    4580	    262217 ns/op	  210696 B/op	    4117 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=50-20         	[34m2026-07-07 22:25:17.189 KST 0142 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:17.204 KST 0143 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:17.242 KST 0144 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    4357	    263694 ns/op	  210694 B/op	    4117 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=50-20         	[34m2026-07-07 22:25:18.448 KST 0145 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:18.468 KST 0146 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:18.510 KST 0147 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    4292	    267383 ns/op	  210696 B/op	    4117 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=50-20         	[34m2026-07-07 22:25:19.670 KST 0148 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:19.681 KST 0149 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:19.721 KST 014a INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    4395	    261018 ns/op	  210697 B/op	    4117 allocs/op
+[34m2026-07-07 22:25:20.881 KST 014b INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+BenchmarkTypedDeltaValidation/plain/deltas=100-20        	[34m2026-07-07 22:25:20.891 KST 014c INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:20.918 KST 014d INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    7468	    156922 ns/op	  161762 B/op	    2419 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=100-20        	[34m2026-07-07 22:25:22.107 KST 014e INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:22.116 KST 014f INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:22.145 KST 0150 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    7377	    158194 ns/op	  161763 B/op	    2419 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=100-20        	[34m2026-07-07 22:25:23.372 KST 0151 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:23.389 KST 0152 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:23.416 KST 0153 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    7077	    156718 ns/op	  161763 B/op	    2419 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=100-20        	[34m2026-07-07 22:25:24.581 KST 0154 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:24.600 KST 0155 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:24.628 KST 0156 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    7010	    157791 ns/op	  161763 B/op	    2419 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=100-20        	[34m2026-07-07 22:25:25.747 KST 0157 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:25.764 KST 0158 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:25.790 KST 0159 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    7686	    158885 ns/op	  161762 B/op	    2419 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=100-20        	[34m2026-07-07 22:25:27.065 KST 015a INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:27.083 KST 015b INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:27.110 KST 015c INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    7267	    157948 ns/op	  161764 B/op	    2419 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=100-20        	[34m2026-07-07 22:25:28.316 KST 015d INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:28.335 KST 015e INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:28.363 KST 015f INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    7207	    156324 ns/op	  161762 B/op	    2419 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=100-20        	[34m2026-07-07 22:25:29.501 KST 0160 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:29.510 KST 0161 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:29.538 KST 0162 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    7412	    156311 ns/op	  161764 B/op	    2419 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=100-20        	[34m2026-07-07 22:25:30.710 KST 0163 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:30.725 KST 0164 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:30.756 KST 0165 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    7369	    158147 ns/op	  161764 B/op	    2419 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=100-20        	[34m2026-07-07 22:25:31.950 KST 0166 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:31.961 KST 0167 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:31.994 KST 0168 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    7256	    157334 ns/op	  161764 B/op	    2419 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=100-20        	[34m2026-07-07 22:25:33.162 KST 0169 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:33.175 KST 016a INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:33.204 KST 016b INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    7316	    159393 ns/op	  161764 B/op	    2419 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=100-20        	[34m2026-07-07 22:25:34.394 KST 016c INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:34.416 KST 016d INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:34.443 KST 016e INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    6967	    156078 ns/op	  161764 B/op	    2419 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=100-20        	[34m2026-07-07 22:25:35.543 KST 016f INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:35.553 KST 0170 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:35.586 KST 0171 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    7062	    156637 ns/op	  161764 B/op	    2419 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=100-20        	[34m2026-07-07 22:25:36.703 KST 0172 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:36.721 KST 0173 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:36.749 KST 0174 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    7170	    157531 ns/op	  161763 B/op	    2419 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=100-20        	[34m2026-07-07 22:25:37.896 KST 0175 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:37.907 KST 0176 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:37.947 KST 0177 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    7336	    156845 ns/op	  161764 B/op	    2419 allocs/op
+[34m2026-07-07 22:25:39.128 KST 0178 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+BenchmarkTypedDeltaValidation/NONNEG/deltas=100-20       	[34m2026-07-07 22:25:39.146 KST 0179 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:39.208 KST 017a INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    2394	    489178 ns/op	  409851 B/op	    8119 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=100-20       	[34m2026-07-07 22:25:40.438 KST 017b INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:40.458 KST 017c INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:40.521 KST 017d INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    2403	    494670 ns/op	  409852 B/op	    8119 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=100-20       	[34m2026-07-07 22:25:41.724 KST 017e INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:41.736 KST 017f INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:41.798 KST 0180 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    2457	    490449 ns/op	  409852 B/op	    8119 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=100-20       	[34m2026-07-07 22:25:43.014 KST 0181 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:43.027 KST 0182 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:43.089 KST 0183 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    2451	    490891 ns/op	  409847 B/op	    8119 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=100-20       	[34m2026-07-07 22:25:44.403 KST 0184 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:44.429 KST 0185 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:44.491 KST 0186 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    2419	    492729 ns/op	  409851 B/op	    8119 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=100-20       	[34m2026-07-07 22:25:45.734 KST 0187 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:45.752 KST 0188 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:45.816 KST 0189 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    2318	    496834 ns/op	  409855 B/op	    8119 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=100-20       	[34m2026-07-07 22:25:46.988 KST 018a INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:47.002 KST 018b INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:47.062 KST 018c INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    2464	    486954 ns/op	  409850 B/op	    8119 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=100-20       	[34m2026-07-07 22:25:48.322 KST 018d INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:48.341 KST 018e INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:48.418 KST 018f INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    2386	    494589 ns/op	  409852 B/op	    8119 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=100-20       	[34m2026-07-07 22:25:49.659 KST 0190 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:49.677 KST 0191 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:49.738 KST 0192 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    2394	    491466 ns/op	  409852 B/op	    8119 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=100-20       	[34m2026-07-07 22:25:50.928 KST 0193 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:50.949 KST 0194 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:51.010 KST 0195 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    2434	    494535 ns/op	  409850 B/op	    8119 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=100-20       	[34m2026-07-07 22:25:52.315 KST 0196 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:52.334 KST 0197 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:52.396 KST 0198 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    2370	    487699 ns/op	  409850 B/op	    8119 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=100-20       	[34m2026-07-07 22:25:53.565 KST 0199 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:53.585 KST 019a INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:53.655 KST 019b INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    2127	    501633 ns/op	  409853 B/op	    8119 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=100-20       	[34m2026-07-07 22:25:54.734 KST 019c INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:54.747 KST 019d INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:54.808 KST 019e INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    2418	    495747 ns/op	  409852 B/op	    8119 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=100-20       	[34m2026-07-07 22:25:56.020 KST 019f INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:56.032 KST 01a0 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:56.096 KST 01a1 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    2436	    498367 ns/op	  409852 B/op	    8119 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=100-20       	[34m2026-07-07 22:25:57.368 KST 01a2 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:57.387 KST 01a3 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:57.449 KST 01a4 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    2370	    497762 ns/op	  409854 B/op	    8119 allocs/op
+[34m2026-07-07 22:25:58.641 KST 01a5 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+BenchmarkTypedDeltaValidation/RANGE/deltas=100-20        	[34m2026-07-07 22:25:58.654 KST 01a6 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:58.726 KST 01a7 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    2284	    526231 ns/op	  421054 B/op	    8219 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=100-20        	[34m2026-07-07 22:25:59.940 KST 01a8 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:25:59.969 KST 01a9 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:00.037 KST 01aa INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    2236	    529601 ns/op	  421057 B/op	    8219 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=100-20        	[34m2026-07-07 22:26:01.233 KST 01ab INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:01.247 KST 01ac INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:01.312 KST 01ad INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    2257	    533447 ns/op	  421056 B/op	    8219 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=100-20        	[34m2026-07-07 22:26:02.539 KST 01ae INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:02.550 KST 01af INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:02.617 KST 01b0 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    2252	    531304 ns/op	  421055 B/op	    8219 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=100-20        	[34m2026-07-07 22:26:03.870 KST 01b1 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:03.892 KST 01b2 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:03.960 KST 01b3 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    2156	    532942 ns/op	  421054 B/op	    8219 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=100-20        	[34m2026-07-07 22:26:05.130 KST 01b4 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:05.150 KST 01b5 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:05.216 KST 01b6 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    2209	    527810 ns/op	  421050 B/op	    8219 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=100-20        	[34m2026-07-07 22:26:06.451 KST 01b7 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:06.471 KST 01b8 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:06.536 KST 01b9 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    2240	    529675 ns/op	  421057 B/op	    8219 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=100-20        	[34m2026-07-07 22:26:07.781 KST 01ba INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:07.801 KST 01bb INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:07.865 KST 01bc INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    2252	    533593 ns/op	  421054 B/op	    8219 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=100-20        	[34m2026-07-07 22:26:09.079 KST 01bd INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:09.092 KST 01be INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:09.157 KST 01bf INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    2269	    526170 ns/op	  421056 B/op	    8219 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=100-20        	[34m2026-07-07 22:26:10.420 KST 01c0 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:10.439 KST 01c1 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:10.505 KST 01c2 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    2202	    542818 ns/op	  421057 B/op	    8219 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=100-20        	[34m2026-07-07 22:26:11.759 KST 01c3 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:11.778 KST 01c4 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:11.845 KST 01c5 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    2210	    532962 ns/op	  421056 B/op	    8219 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=100-20        	[34m2026-07-07 22:26:13.034 KST 01c6 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:13.046 KST 01c7 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:13.112 KST 01c8 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    2244	    532662 ns/op	  421055 B/op	    8219 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=100-20        	[34m2026-07-07 22:26:14.322 KST 01c9 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:14.334 KST 01ca INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:14.400 KST 01cb INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    2232	    540050 ns/op	  421057 B/op	    8219 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=100-20        	[34m2026-07-07 22:26:15.674 KST 01cc INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:15.693 KST 01cd INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:15.773 KST 01ce INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    2239	    530219 ns/op	  421051 B/op	    8219 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=100-20        	[34m2026-07-07 22:26:16.972 KST 01cf INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:16.984 KST 01d0 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:17.050 KST 01d1 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    2226	    529411 ns/op	  421056 B/op	    8219 allocs/op
+[34m2026-07-07 22:26:18.243 KST 01d2 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+BenchmarkTypedDeltaValidation/plain/deltas=500-20        	[34m2026-07-07 22:26:18.254 KST 01d3 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:18.344 KST 01d4 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    1521	    790062 ns/op	  828979 B/op	   12269 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=500-20        	[34m2026-07-07 22:26:19.602 KST 01d5 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:19.622 KST 01d6 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:19.713 KST 01d7 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    1494	    791038 ns/op	  828985 B/op	   12269 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=500-20        	[34m2026-07-07 22:26:20.995 KST 01d8 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:21.012 KST 01d9 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:21.105 KST 01da INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    1471	    796165 ns/op	  828982 B/op	   12269 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=500-20        	[34m2026-07-07 22:26:22.288 KST 01db INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:22.299 KST 01dc INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:22.389 KST 01dd INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    1516	    798576 ns/op	  828982 B/op	   12269 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=500-20        	[34m2026-07-07 22:26:23.612 KST 01de INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:23.624 KST 01df INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:23.717 KST 01e0 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    1460	    796816 ns/op	  828985 B/op	   12269 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=500-20        	[34m2026-07-07 22:26:24.893 KST 01e1 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:24.905 KST 01e2 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:24.995 KST 01e3 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    1518	    788322 ns/op	  828978 B/op	   12269 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=500-20        	[34m2026-07-07 22:26:26.203 KST 01e4 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:26.214 KST 01e5 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:26.305 KST 01e6 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    1513	    790135 ns/op	  828985 B/op	   12269 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=500-20        	[34m2026-07-07 22:26:27.511 KST 01e7 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:27.535 KST 01e8 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:27.625 KST 01e9 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    1521	    788743 ns/op	  828989 B/op	   12269 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=500-20        	[34m2026-07-07 22:26:28.873 KST 01ea INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:28.890 KST 01eb INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:28.981 KST 01ec INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    1512	    795619 ns/op	  828983 B/op	   12269 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=500-20        	[34m2026-07-07 22:26:30.201 KST 01ed INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:30.213 KST 01ee INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:30.304 KST 01ef INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    1502	    790722 ns/op	  828985 B/op	   12269 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=500-20        	[34m2026-07-07 22:26:31.517 KST 01f0 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:31.529 KST 01f1 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:31.620 KST 01f2 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    1502	    790917 ns/op	  828987 B/op	   12269 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=500-20        	[34m2026-07-07 22:26:32.863 KST 01f3 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:32.881 KST 01f4 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:32.972 KST 01f5 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    1496	    794122 ns/op	  828986 B/op	   12269 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=500-20        	[34m2026-07-07 22:26:34.215 KST 01f6 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:34.234 KST 01f7 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:34.325 KST 01f8 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    1501	    788140 ns/op	  828986 B/op	   12269 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=500-20        	[34m2026-07-07 22:26:35.519 KST 01f9 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:35.529 KST 01fa INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:35.621 KST 01fb INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    1519	    787615 ns/op	  828979 B/op	   12269 allocs/op
+BenchmarkTypedDeltaValidation/plain/deltas=500-20        	[34m2026-07-07 22:26:36.832 KST 01fc INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:36.843 KST 01fd INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:36.932 KST 01fe INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+    1525	    804154 ns/op	  828987 B/op	   12269 allocs/op
+[34m2026-07-07 22:26:38.170 KST 01ff INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+BenchmarkTypedDeltaValidation/NONNEG/deltas=500-20       	[34m2026-07-07 22:26:38.186 KST 0200 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:38.456 KST 0201 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+     466	   2573933 ns/op	 2069420 B/op	   40771 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=500-20       	[34m2026-07-07 22:26:39.717 KST 0202 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:39.738 KST 0203 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:40.044 KST 0204 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+     468	   2560980 ns/op	 2069408 B/op	   40771 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=500-20       	[34m2026-07-07 22:26:41.260 KST 0205 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:41.281 KST 0206 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:41.558 KST 0207 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+     468	   2588919 ns/op	 2069424 B/op	   40771 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=500-20       	[34m2026-07-07 22:26:42.783 KST 0208 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:42.798 KST 0209 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:43.068 KST 020a INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+     468	   2548285 ns/op	 2069430 B/op	   40771 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=500-20       	[34m2026-07-07 22:26:44.321 KST 020b INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:44.347 KST 020c INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:44.670 KST 020d INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+     468	   2554422 ns/op	 2069407 B/op	   40771 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=500-20       	[34m2026-07-07 22:26:45.878 KST 020e INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:45.894 KST 020f INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:46.217 KST 0210 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+     472	   2554648 ns/op	 2069439 B/op	   40771 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=500-20       	[34m2026-07-07 22:26:47.437 KST 0211 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:47.453 KST 0212 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:47.723 KST 0213 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+     464	   2569805 ns/op	 2069399 B/op	   40771 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=500-20       	[34m2026-07-07 22:26:48.934 KST 0214 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:48.949 KST 0215 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:49.276 KST 0216 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+     475	   2536228 ns/op	 2069396 B/op	   40771 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=500-20       	[34m2026-07-07 22:26:50.496 KST 0217 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:50.512 KST 0218 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:50.781 KST 0219 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+     468	   2532566 ns/op	 2069393 B/op	   40771 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=500-20       	[34m2026-07-07 22:26:52.066 KST 021a INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:52.090 KST 021b INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:52.358 KST 021c INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+     472	   2567931 ns/op	 2069397 B/op	   40771 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=500-20       	[34m2026-07-07 22:26:53.584 KST 021d INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:53.600 KST 021e INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:53.918 KST 021f INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+     470	   2585285 ns/op	 2069414 B/op	   40771 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=500-20       	[34m2026-07-07 22:26:55.193 KST 0220 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:55.212 KST 0221 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:55.480 KST 0222 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+     469	   2570331 ns/op	 2069428 B/op	   40771 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=500-20       	[34m2026-07-07 22:26:56.701 KST 0223 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:56.716 KST 0224 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:57.035 KST 0225 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+     475	   2554250 ns/op	 2069436 B/op	   40771 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=500-20       	[34m2026-07-07 22:26:58.309 KST 0226 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:58.327 KST 0227 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:58.597 KST 0228 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+     464	   2534107 ns/op	 2069429 B/op	   40771 allocs/op
+BenchmarkTypedDeltaValidation/NONNEG/deltas=500-20       	[34m2026-07-07 22:26:59.840 KST 0229 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:26:59.865 KST 022a INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:27:00.183 KST 022b INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+     465	   2556743 ns/op	 2069449 B/op	   40771 allocs/op
+[34m2026-07-07 22:27:01.386 KST 022c INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+BenchmarkTypedDeltaValidation/RANGE/deltas=500-20        	[34m2026-07-07 22:27:01.402 KST 022d INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:27:01.695 KST 022e INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+     433	   2738586 ns/op	 2125432 B/op	   41271 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=500-20        	[34m2026-07-07 22:27:02.959 KST 022f INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:27:02.977 KST 0230 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:27:03.296 KST 0231 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+     435	   2749416 ns/op	 2125430 B/op	   41271 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=500-20        	[34m2026-07-07 22:27:04.507 KST 0232 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:27:04.523 KST 0233 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:27:04.808 KST 0234 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+     440	   2753186 ns/op	 2125435 B/op	   41271 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=500-20        	[34m2026-07-07 22:27:06.076 KST 0235 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:27:06.099 KST 0236 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:27:06.434 KST 0237 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+     438	   2738744 ns/op	 2125440 B/op	   41271 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=500-20        	[34m2026-07-07 22:27:07.658 KST 0238 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:27:07.674 KST 0239 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:27:08.017 KST 023a INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+     429	   2735044 ns/op	 2125430 B/op	   41271 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=500-20        	[34m2026-07-07 22:27:09.209 KST 023b INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:27:09.224 KST 023c INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:27:09.545 KST 023d INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+     439	   2741942 ns/op	 2125429 B/op	   41271 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=500-20        	[34m2026-07-07 22:27:10.854 KST 023e INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:27:10.878 KST 023f INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:27:11.171 KST 0240 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+     435	   2765077 ns/op	 2125457 B/op	   41271 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=500-20        	[34m2026-07-07 22:27:12.433 KST 0241 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:27:12.453 KST 0242 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:27:12.829 KST 0243 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+     436	   2727795 ns/op	 2125450 B/op	   41271 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=500-20        	[34m2026-07-07 22:27:14.032 KST 0244 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:27:14.049 KST 0245 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:27:14.382 KST 0246 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+     439	   2720217 ns/op	 2125438 B/op	   41271 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=500-20        	[34m2026-07-07 22:27:15.597 KST 0247 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:27:15.620 KST 0248 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:27:15.907 KST 0249 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+     439	   2746011 ns/op	 2125436 B/op	   41271 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=500-20        	[34m2026-07-07 22:27:17.170 KST 024a INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:27:17.190 KST 024b INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:27:17.523 KST 024c INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+     436	   2767908 ns/op	 2125449 B/op	   41271 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=500-20        	[34m2026-07-07 22:27:18.747 KST 024d INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:27:18.763 KST 024e INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:27:19.105 KST 024f INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+     440	   2745374 ns/op	 2125453 B/op	   41271 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=500-20        	[34m2026-07-07 22:27:20.373 KST 0250 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:27:20.392 KST 0251 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:27:20.683 KST 0252 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+     432	   2736559 ns/op	 2125407 B/op	   41271 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=500-20        	[34m2026-07-07 22:27:21.878 KST 0253 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:27:21.895 KST 0254 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:27:22.182 KST 0255 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+     436	   2740609 ns/op	 2125424 B/op	   41271 allocs/op
+BenchmarkTypedDeltaValidation/RANGE/deltas=500-20        	[34m2026-07-07 22:27:23.399 KST 0256 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:27:23.419 KST 0257 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+[34m2026-07-07 22:27:23.712 KST 0258 INFO[0m [leveldbhelper] [34;1mopenDBAndCheckFormat[0m -> DB is empty Setting db format as 2.0
+     428	   2739778 ns/op	 2125417 B/op	   41271 allocs/op
+PASS
+ok  	github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/validation	272.207s

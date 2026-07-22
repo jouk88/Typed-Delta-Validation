@@ -1,0 +1,32 @@
+{
+  "amount": 1,
+  "amountMax": 0,
+  "by_code": {
+    "VALID": 1000
+  },
+  "cc": "nocheck",
+  "chaincode": "typeddelta",
+  "concurrency": 1,
+  "count": 1000,
+  "credit_ratio": 0,
+  "credit_total": 0,
+  "elapsed_s": 2216.87,
+  "initBalance": 100000000,
+  "invalid": 0,
+  "key": "E1-nocheck-c1-r2",
+  "keys": 1,
+  "mvcc_invalid": 0,
+  "note": "safe goodput == valid goodput for ours/vanilla (prefix violations expected 0; confirm via prefixanalyzer)",
+  "p50_ms": 2215.52,
+  "p95_ms": 2286.9,
+  "p99_ms": 2300.78,
+  "reveal_ratio": 0,
+  "reveal_total": 0,
+  "reveal_valid": 0,
+  "seed": 0,
+  "submit_errors": 0,
+  "submitted": 1000,
+  "submitted_tps": 0.45,
+  "valid": 1000,
+  "valid_goodput_tps": 0.45
+}
